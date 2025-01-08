@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "vector": "cpp",
+    "iostream": "cpp",
+    "string.h": "c"
+  },
+  "marscode.chatLanguage": "cn",
+  "marscode.enableCodelens": {
+    "enableInlineDocumentation": true,
+    "enableInlineUnitTest": true,
+    "enableInlineExplain": true
+  },
+  "marscode.codeCompletionPro": {
+    "enableCodeCompletionPro": false
+  },
+  "marscode.enableInlineCommand": true,
+  "C_Cpp.errorSquiggles": "disabled"
+}

@@ -3,7 +3,12 @@
     "stdio.h": "c",
     "vector": "cpp",
     "iostream": "cpp",
-    "string.h": "c"
+    "string.h": "c",
+    "format": "cpp",
+    "initializer_list": "cpp",
+    "utility": "cpp",
+    "xstring": "cpp",
+    "xutility": "cpp"
   },
   "marscode.chatLanguage": "cn",
   "marscode.enableCodelens": {

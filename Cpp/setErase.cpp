@@ -15,7 +15,7 @@ void test() {
     P(s1);s1.insert(10);
     s1.erase(10);// 删除相应数值元素
     s1.insert(10);P(s1);
-    s1.erase(s1.begin(), s1.end()); // 清空
+    s1.erase(s1.begin(), s1.end()); // 清空，相当于clear();
     P(s1);
 }
 

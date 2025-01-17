@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-test() {
+void test() {
     pair<string, int>p("Tom", 20);
     cout << "姓名： " << p.first << " 年龄： " << p.second << endl;
 

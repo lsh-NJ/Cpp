@@ -9,6 +9,7 @@ void printSet(set<int>&s) {
     }
     cout << endl;
 }
+
 // set 容器构造和赋值
 void test1() {
     set<int>s1;
@@ -22,6 +23,12 @@ void test1() {
     set<int>s3;
     s3 = s2;
     printSet(s3);
+    // 交换
+    set<int>s4;
+    s4.insert(9);
+    s4.swap(s1);
+    printSet(s1);
+    printSet(s4);
 }
 
 int main() {

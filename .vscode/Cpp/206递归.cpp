@@ -17,10 +17,8 @@ public:
     */
     ListNode* reverse(ListNode* cur, ListNode* pre) {
         if(cur == nullptr) return pre;// 终止条件
-        else {
-            ListNode* tmp = cur->next;// 存储cur的下一节点，方便后移动
-            cur->next = pre;          // 反转
-            return reverse(tmp, cur);        // 进入下一层递归的同时将指针后移
-        }
+        ListNode* tmp = cur->next;// 存储cur的下一节点，方便后移动
+        cur->next = pre;          // 反转
+        return reverse(tmp, cur);        // 进入下一层递归的同时将指针后移
     }
 };

@@ -8,7 +8,10 @@
     "initializer_list": "cpp",
     "utility": "cpp",
     "xstring": "cpp",
-    "xutility": "cpp"
+    "xutility": "cpp",
+    "set": "cpp",
+    "xtree": "cpp",
+    "list": "cpp"
   },
   "marscode.chatLanguage": "cn",
   "marscode.enableCodelens": {
